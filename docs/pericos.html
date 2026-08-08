@@ -38,6 +38,7 @@
   "servesCuisine": ["Mexican", "New Mexican"],
   "telephone": "+1-505-247-2503",
   "priceRange": "$10-20",
+  "hasMenu": "https://garrettleake.github.io/yale/pericos.html#menu",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "2500 Yale Blvd SE",
@@ -112,6 +113,7 @@
         Sunport — order at the counter, eat in the dining room, or take it with you.
       </p>
       <div class="hero__actions">
+        <a class="btn btn--light" href="#menu">See the Menu</a>
         <a class="btn btn--light" href="https://order.online/store/perico-s-burritos-albuquerque-264251" target="_blank" rel="noopener">Order Online</a>
         <a class="btn btn--light" href="tel:+15052472503">Call (505) 247-2503</a>
       </div>
@@ -150,19 +152,112 @@
             <img src="assets/img/pericos-dining.jpg" alt="Perico's dining room with bar seating, high tops and street-facing windows.">
           </figure>
           <figure>
-            <div class="ph"><strong>Insert Photo</strong><span>A signature plate — burrito, tacos or a stuffed sopapilla</span></div>
+            <div class="ph"><span>Photo coming soon</span></div>
           </figure>
         </div>
 
-        <div class="todo">
-          <strong>Optional upgrade — full menu</strong>
-          Hours, phone and popular dishes are confirmed. The dishes above come from the Google
-          listing's popular items and review tags. If you can get the Yale menu with prices,
-          I'll build a proper menu section with <code>Menu</code> structured data — that's what
-          ranks for "chile relleno burrito near me" style searches.
+        <h2 style="margin-top:3.5rem" id="menu">The Menu</h2>
+        <p class="menu-note" style="margin-bottom:2rem">
+          Lunch and dinner. Burritos come with your choice of red or green chile.
+          Dinner plates include rice, beans, salad and a tortilla.
+        </p>
+
+        <div class="menu-cols">
+
+          <div class="menu-section">
+            <h3>Burritos <small>red or green chile</small></h3>
+            <ul class="menu-list">
+              <li><div class="menu-row"><span class="name">Red Combination</span><span class="dots"></span><span class="price">$8.89</span></div><span class="desc">Pork marinated in red chile, beans, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Green Combination</span><span class="dots"></span><span class="price">$8.89</span></div><span class="desc">Pork marinated in green chile, beans, cheese</span></li>
+              <li><div class="menu-row"><span class="name">All Meat Red</span><span class="dots"></span><span class="price">$8.89</span></div><span class="desc">Pork marinated in red chile with cheese</span></li>
+              <li><div class="menu-row"><span class="name">All Meat Green</span><span class="dots"></span><span class="price">$8.89</span></div><span class="desc">Pork marinated in green chile with cheese</span></li>
+              <li><div class="menu-row"><span class="name">Carne Desebrada</span><span class="dots"></span><span class="price">$8.99</span></div><span class="desc">Shredded beef, beans, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Carne Adovada</span><span class="dots"></span><span class="price">$8.99</span></div><span class="desc">Pork marinated in red chile with cheese</span></li>
+              <li><div class="menu-row"><span class="name">Chicharrone</span><span class="dots"></span><span class="price">$8.99</span></div><span class="desc">Chicharrón, beans, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Relleno</span><span class="dots"></span><span class="price">$8.99</span></div><span class="desc">Chile relleno, beans, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Tamale Burrito</span><span class="dots"></span><span class="price">$8.99</span></div><span class="desc">Tamale, beans, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Asada Burrito</span><span class="dots"></span><span class="price">$8.99</span></div><span class="desc">Asada, beans, pico</span></li>
+              <li><div class="menu-row"><span class="name">Papas con Carne</span><span class="dots"></span><span class="price">$8.79</span></div><span class="desc">Ground beef, potatoes, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Chicken</span><span class="dots"></span><span class="price">$8.79</span></div><span class="desc">Chicken, beans, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Fish</span><span class="dots"></span><span class="price">$8.79</span></div><span class="desc">Steamed tilapia, jalapeño, tomato, lettuce, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Vegetarian</span><span class="dots"></span><span class="price">$8.49</span></div><span class="desc">Rice, beans, guacamole, sour cream, lettuce, tomato, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Chorizo</span><span class="dots"></span><span class="price">$7.79</span></div><span class="desc">Mexican sausage, egg, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Breakfast</span><span class="dots"></span><span class="price">$7.49</span></div><span class="desc">Egg, potato, beans, cheese — add bacon or sausage $2.00</span></li>
+              <li><div class="menu-row"><span class="name">Beans and Rice</span><span class="dots"></span><span class="price">$6.29</span></div><span class="desc">With cheese</span></li>
+              <li><div class="menu-row"><span class="name">Bean</span><span class="dots"></span><span class="price">$6.29</span></div><span class="desc">With cheese</span></li>
+              <li><div class="menu-row"><span class="name">Mini Burrito</span><span class="dots"></span><span class="price">$6.05</span></div><span class="desc">Red or green combination, bean, beans and rice, or chicharrone</span></li>
+              <li><div class="menu-row"><span class="name">Perico Burrito</span><span class="dots"></span><span class="price">$10.29</span></div><span class="desc">Build your own with your choice of chicken, carne adovada, papas con carne or beef</span></li>
+              <li><div class="menu-row"><span class="name">Burrito Grande</span><span class="dots"></span><span class="price">$11.79</span></div><span class="desc">Chicken, beef, papas con carne or pork with rice, beans, lettuce, tomato and cheese</span></li>
+            </ul>
+            <p class="menu-note">Make any burrito a chimi $1.25 · stuffed sopapilla $3.29 · sopapilla burrito $3.29</p>
+          </div>
+
+          <div class="menu-section">
+            <h3>Dinner Plates <small>rice, beans, salad &amp; tortilla</small></h3>
+            <ul class="menu-list">
+              <li><div class="menu-row"><span class="name">Coconut Special</span><span class="dots"></span><span class="price">$17.89</span></div><span class="desc">Taco, cheese enchilada, meat &amp; bean burrito, red or green</span></li>
+              <li><div class="menu-row"><span class="name">Perico's Special</span><span class="dots"></span><span class="price">$16.89</span></div><span class="desc">Chile relleno, cheese enchilada, red or green</span></li>
+              <li><div class="menu-row"><span class="name">Trabajador Special</span><span class="dots"></span><span class="price">$14.99</span></div><span class="desc">Carne adovada, cheese enchilada, red or green</span></li>
+              <li><div class="menu-row"><span class="name">Perico's Rancheros</span><span class="dots"></span><span class="price">$14.99</span></div><span class="desc">Two eggs, carne adovada, potatoes, red or green</span></li>
+              <li><div class="menu-row"><span class="name">Enchilada Special</span><span class="dots"></span><span class="price">$14.89</span></div><span class="desc">Two cheese enchiladas</span></li>
+              <li><div class="menu-row"><span class="name">Burrito Special</span><span class="dots"></span><span class="price">$14.89</span></div><span class="desc">One meat &amp; bean burrito smothered red or green</span></li>
+              <li><div class="menu-row"><span class="name">Tamale Special</span><span class="dots"></span><span class="price">$14.89</span></div><span class="desc">Two tamales, carne adovada, smothered red or green</span></li>
+              <li><div class="menu-row"><span class="name">Tacos Vera Cruz</span><span class="dots"></span><span class="price">$14.89</span></div><span class="desc">Two fish tacos, tomato, onion, jalapeño, lettuce, cheese</span></li>
+              <li><div class="menu-row"><span class="name">Taco &amp; Enchilada Special</span><span class="dots"></span><span class="price">$14.89</span></div><span class="desc">One taco and one enchilada</span></li>
+              <li><div class="menu-row"><span class="name">Taco Special</span><span class="dots"></span><span class="price">$14.89</span></div><span class="desc">Two tacos</span></li>
+              <li><div class="menu-row"><span class="name">Huevos Rancheros</span><span class="dots"></span><span class="price">$13.99</span></div><span class="desc">Two eggs, potatoes, beans, rice, red or green</span></li>
+            </ul>
+          </div>
+
+          <div class="menu-section">
+            <h3>Tacos <small>chicken, beef, papas con carne, fish or asada</small></h3>
+            <ul class="menu-list">
+              <li><div class="menu-row"><span class="name">Single Taco</span><span class="dots"></span><span class="price">$3.99</span></div></li>
+              <li><div class="menu-row"><span class="name">6 Pack of Tacos</span><span class="dots"></span><span class="price">$19.85</span></div><span class="desc">Buy 5, get 1 free — asada not included</span></li>
+              <li><div class="menu-row"><span class="name">Taco &amp; Beans</span><span class="dots"></span><span class="price">$7.29</span></div></li>
+              <li><div class="menu-row"><span class="name">2 Pack Flautas</span><span class="dots"></span><span class="price">$6.99</span></div><span class="desc">With sour cream, guacamole and salsa</span></li>
+              <li><div class="menu-row"><span class="name">6 Pack of Flautas</span><span class="dots"></span><span class="price">$19.95</span></div><span class="desc">With sour cream, guacamole and salsa</span></li>
+            </ul>
+          </div>
+
+          <div class="menu-section">
+            <h3>Antojitos</h3>
+            <ul class="menu-list">
+              <li><div class="menu-row"><span class="name">Panchas</span><span class="dots"></span><span class="price">$9.29</span></div><span class="desc">Chips, cheese, beans, guacamole, tomato — add meat $2.00</span></li>
+              <li><div class="menu-row"><span class="name">Guacamole Salad</span><span class="dots"></span><span class="price">$6.99</span></div></li>
+              <li><div class="menu-row"><span class="name">Nachos</span><span class="dots"></span><span class="price">$6.59</span></div><span class="desc">Chips, cheese, jalapeños — add meat $2.00</span></li>
+              <li><div class="menu-row"><span class="name">Tostada with Meat</span><span class="dots"></span><span class="price">$5.79</span></div></li>
+              <li><div class="menu-row"><span class="name">Chili Cheese Fries</span><span class="dots"></span><span class="price">$5.49</span></div></li>
+              <li><div class="menu-row"><span class="name">Salsa &amp; Chips</span><span class="dots"></span><span class="price">$4.99</span></div></li>
+              <li><div class="menu-row"><span class="name">Regular Fries</span><span class="dots"></span><span class="price">$3.99</span></div></li>
+              <li><div class="menu-row"><span class="name">Bean Tostada</span><span class="dots"></span><span class="price">$3.89</span></div></li>
+              <li><div class="menu-row"><span class="name">Bean &amp; Cheese Bowl</span><span class="dots"></span><span class="price">$3.29</span></div></li>
+              <li><div class="menu-row"><span class="name">Rice &amp; Cheese Bowl</span><span class="dots"></span><span class="price">$3.29</span></div></li>
+            </ul>
+          </div>
+
+          <div class="menu-section">
+            <h3>A La Carte</h3>
+            <ul class="menu-list">
+              <li><div class="menu-row"><span class="name">Chile Relleno &amp; Beans</span><span class="dots"></span><span class="price">$8.99</span></div></li>
+              <li><div class="menu-row"><span class="name">Chile Relleno</span><span class="dots"></span><span class="price">$7.99</span></div></li>
+              <li><div class="menu-row"><span class="name">Chile Con Carne</span><span class="dots"></span><span class="price">$6.79</span></div></li>
+              <li><div class="menu-row"><span class="name">Cheese Enchilada &amp; Beans</span><span class="dots"></span><span class="price">$5.79</span></div></li>
+              <li><div class="menu-row"><span class="name">Cheese Enchilada</span><span class="dots"></span><span class="price">$3.99</span></div></li>
+            </ul>
+          </div>
+
+          <div class="menu-section">
+            <h3>Dessert</h3>
+            <ul class="menu-list">
+              <li><div class="menu-row"><span class="name">6 Mini Sopapillas</span><span class="dots"></span><span class="price">$5.39</span></div><span class="desc">Covered in cinnamon and sugar</span></li>
+              <li><div class="menu-row"><span class="name">Sopapilla with Honey</span><span class="dots"></span><span class="price">$2.99</span></div></li>
+            </ul>
+          </div>
+
         </div>
 
-        <h2 style="margin-top:3rem">Good for a Layover</h2>
+<h2 style="margin-top:3rem">Good for a Layover</h2>
         <p>
           If you're flying out of the Sunport, Yale Blvd is on your way in. Order ahead for pickup,
           eat before you return the rental car, and skip whatever the terminal is charging for a
@@ -174,7 +269,7 @@
           <p>
             <strong>Also at Yale:</strong>
             <a href="paleteria-cuauhtemoc.html">Paletería Cuauhtémoc</a> for paletas and aguas frescas, and
-            <a href="fmv-brewing.html">FMV Brewing Co.</a> for beer brewed on site — both in the same building.
+            <a href="fmv-brewing.html">FMV Brewing Co.</a> for New Mexico beer on tap — both in the same building.
           </p>
         </div>
       </div>
