@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+# Replace with the real domain before launch.
 Sitemap: https://garrettleake.github.io/yale/sitemap.xml
