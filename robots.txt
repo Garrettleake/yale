@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with the real domain before launch.
+Sitemap: https://yaleabq.com/sitemap.xml
